@@ -88,8 +88,31 @@ a:hover,a:focus,a:active{
     text-align: left;
     margin-left: 8px;
 }
+.Project-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    gap: .5rem;
+
+}
+.Project{
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    background-color: rgba(6, 6, 6, 0.882) ;
+    color: #be6f33;
+}
+.project-text{
+    text-align: center;
+}
+.project-link{
+    color: #F7EDE2;
+}
 
 @media(min-width: 50em){
+    h1{
+        font-size: 2.8rem;
+    }
     .Introduction {
         display: grid;
         width: 100%;
@@ -111,31 +134,9 @@ a:hover,a:focus,a:active{
         width: 85%;
         height: 90%;
     }
-    h1{
-        font-size: 2.8rem;
-    }
 }
 
-.project-text{
-    text-align: center;
-}
-.Project{
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
-    background-color: rgba(6, 6, 6, 0.882) ;
-    color: #be6f33;
-}
-.Project-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-    gap: .5rem;
 
-}
-.project-link{
-    color: #F7EDE2;
-}
 /* Footer
 --------------------------------------------- */
 
